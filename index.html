@@ -20,7 +20,10 @@
                 <div class="project-images">
                     <img src="images/fog-monster.gif" class="gen-ex"></img>
                 </div>
-                <p id="project1">Generative Methods Collection</p>
+                <div class="project-desc">
+                    <p id="project1">Generative Methods Collection</p>
+                    <button id="project1btn" class="help-button"><i class="material-icons">help</i></button>
+                </div>
             </div>
 
 
@@ -29,10 +32,57 @@
                     <img src="images/humoroo.jpg" class="humoroo-ex"></img>
                     <img src="images/humoroo2.jpg" class="humoroo-ex"></img>
                 </div>
-                <p id="project2">Humoroo!</p>
+                <div class="project-desc">
+                    <p id="project2">Humoroo</p>
+                    <button id="project2btn" class="help-button"><i class="material-icons">help</i></button>
+                </div>
             </div>
         </div>
     </div>
+
+    <div id="project1Modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Generative Methods Collection</h2>
+
+            <a href="https://github.com/kabaniak/generative-methods">Click here to see the github for this project.</a>
+
+            <p>A series of 8 projects created using JavaScript, generative methods, and a little creativity. This collection
+                was created individually as a part of a course taken January - March 2021. Each project directory holds a readme
+                showing off a demo of the project plus a little bit of description. Please explore!
+            </p>
+
+            <p>I'm most proud of A9 - The Fog Monster and A4 - The Space Particle Simulator.</p>
+        </div>
+
+    </div>
+    
+    <div id="project2Modal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Humoroo!</h2>
+            
+            <a href="https://github.com/kabaniak/humoroo">Click here to see the github for this project.</a>
+
+            
+            <p> Humoroo! is a webpage that generates a three-panel comic given any two concepts. Through the use of a
+                word to vector model, a third related concept is generated and then used in a humorous punchline ovelaid 
+                on top of a series of appropriate images. This project was created on a team as a part of a course taken 
+                April - June 2022. Feel free to read through the code.
+            </p>
+
+            <p>I'm most proud of the Eureka! moment I had figuring out how to generate the third related word. Inspiration 
+                struck while I was playing <a href="https://semantle.com/">Semantle!</a>
+            </p>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
