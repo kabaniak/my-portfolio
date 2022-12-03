@@ -10,16 +10,19 @@ var span3 = document.getElementById("close-3");
 // When the user clicks on the button, open the modal
 biobtn.onclick = function() {
     bioModal.style.display = "block";
+    bioModal.ariaHidden = "false";
 }
 
 // When the user clicks on <span> (x), close the modal
 span3.onclick = function() {
     bioModal.style.display = "none";
+    bioModal.ariaHidden = "true";
 }
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == bioModal) {
     bioModal.style.display = "none";
+    bioModal.ariaHidden = "true";
   }
 }
