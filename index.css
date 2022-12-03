@@ -42,11 +42,12 @@ body {
 
 /* Modal Content/Box */
 .modal-content {
-    background-color: #fefefe;
+    background-color: #fff7f6;
     margin: 15% auto;
     /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
+    border-radius: 16px;
     width: 80%;
     /* Could be more or less, depending on screen size */
 }
@@ -153,6 +154,8 @@ nav [aria-current=page] {
 .project-desc {
     display: flex;
     flex-direction: row;
+
+    color: #fff7f6;
 }
 
 .gen-ex {
@@ -189,4 +192,8 @@ nav [aria-current=page] {
 .about-me a {
     color: #2B505A;
     text-decoration: none;
+}
+
+#biotrigger {
+    cursor: pointer;
 }
