@@ -2,7 +2,6 @@
 body {
     background-image: url('images/background.jpg');
     background-position: bottom;
-    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -184,7 +183,7 @@ nav [aria-current=page] {
     margin: 3% 3%;
     padding: 3%;
 
-    height: 100%;
+    height: auto;
 
     border-radius: 16px;
 }
@@ -196,4 +195,26 @@ nav [aria-current=page] {
 
 #biotrigger {
     cursor: pointer;
+}
+
+/* THE GALLERY */
+#gallery {
+    background-color: #9c6352;
+    border-radius: 16px;
+    padding: 20px;
+
+    color:#fff7f6b4;
+}
+
+.gallery-work {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-work img {
+    max-height: 200px;
+    border: 0.5rem solid #9c6352;
+    margin-top: 15px;
 }
