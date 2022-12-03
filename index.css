@@ -1,0 +1,113 @@
+/* general page styles */
+body {
+    background-image: url('images/background.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.visuallyhidden {
+    display: none;
+}
+
+.page-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    height: 95vh;
+}
+
+
+/* main menu styling */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+    font-size: 30px;
+    
+    width: 33.33%;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 8px;
+    background-color: #90A9BF;
+    color: #2B505A;
+    text-decoration: none;
+}
+
+nav a:hover,
+nav a:focus {
+    color: #90A9BF;
+    background-color: #fff7f6;
+}
+
+nav [aria-current=page] {
+    background-color: #CDDDF5;
+    color: #2B505A;
+    border-bottom: .2em solid #2B505A;
+}
+
+/* HOME PAGE */
+
+/* projects */
+.project-wrapper {
+    margin: 7% 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    text-align: center;
+
+    height: 100%;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    border-radius: 16px;
+    background-color: #9c6352b1;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.project > p {
+    font-size: 20px;
+    background-color: #9c6352;
+    border-radius: 16px;
+
+    padding: 8px;
+}
+
+.project-images {
+    margin-top: 5%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    
+    align-items: center;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.gen-ex {
+    max-width: 100%;
+    width: 300px;
+}
+
+.humoroo-ex {
+    max-width: 100%;
+    width: 300px;
+
+}
